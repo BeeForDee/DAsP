@@ -234,8 +234,9 @@ if register_users.get(user_name) == password:
             z = lngth_lst.count(number)
             print("{:<3}|".format(number), "{:<13}|".format("*" * z), "{:<}".format(z))
     else:
-        print("Vyber nerozeznan. Program bude ukoncen.")
+        print("The selection is unrecognized, terminating the program..")
         exit()
 
 else:
     print("unregistered user, terminating the program..")
+    exit()
